@@ -124,6 +124,9 @@ section.why-us ul{
     body{
         padding: 10rem 25rem; 
     }
+    section {
+        padding: 2.5rem;
+    }
     .section-wrapper {
         flex-direction: row;
     }
