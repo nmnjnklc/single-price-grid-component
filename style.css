@@ -53,7 +53,7 @@ section.join-us h3 {
 }
 
 section.join-us p {
-    margin-top: -1rem;
+    margin-top: -0.75rem;
     font-size: .86rem;
     line-height: 1.5rem;
     color: #98a6bd;
@@ -116,7 +116,7 @@ section.why-us {
 
 section.why-us ul{
     list-style: none;
-    line-height: 1.45rem;
+    line-height: 1.25rem;
     font-size: .85rem;
     color: #e5eff5;
 }
