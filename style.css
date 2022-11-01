@@ -128,6 +128,12 @@ section.why-us ul{
     section {
         padding: 2.5rem;
     }
+    section.join-us h1 {
+        font-size: 1.5rem;
+    }
+    section.join-us h3 {
+        font-size: 1.1rem;
+    }
     section.join-us p {
         font-size: 1rem;
     }
