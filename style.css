@@ -127,6 +127,9 @@ section.why-us ul{
     section {
         padding: 2.5rem;
     }
+    section.join-us p {
+        font-size: 1rem;
+    }
     .section-wrapper {
         flex-direction: row;
     }
