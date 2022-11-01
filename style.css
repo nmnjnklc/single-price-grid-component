@@ -53,6 +53,7 @@ section.join-us h3 {
 }
 
 section.join-us p {
+    margin-top: -1rem;
     font-size: .86rem;
     line-height: 1.5rem;
     color: #98a6bd;
