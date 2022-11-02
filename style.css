@@ -16,9 +16,13 @@ body {
 }
 
 main {
+    width: fit-content;
+    height: fit-content;
+}
+
+.wrapper {
     width: 100%;
     max-width: 40rem;
-    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,7 +51,7 @@ section.join-us h1 {
     color: #2ab2af
 }
 
-section.join-us h3 {
+section.join-us p.money-back {
     font-size: 1rem;
     color: #c0df34;
 }
@@ -94,15 +98,21 @@ section.monthly-subscription .price-container .price-tag span{
     color: #fff;
 }
 
-section.monthly-subscription .price-container p {
+section.monthly-subscription .price-container .price-tag p {
     color: #e5eff5;
 }
 
-section.monthly-subscription button {
+section.monthly-subscription .price-container p {
+    color: #fff;
+}
+
+section.monthly-subscription a {
     cursor: pointer;
     border: 1px solid #8fa333;
     background-color: #c0df34;
     padding: 1rem;
+    text-decoration: none;
+    text-align: center;
     font-size: 1rem;
     font-weight: 700;
     color: #fff;
@@ -131,7 +141,7 @@ section.why-us ul{
     section.join-us h1 {
         font-size: 1.5rem;
     }
-    section.join-us h3 {
+    section.join-us p.money-back {
         font-size: 1.1rem;
     }
     section.join-us p {
